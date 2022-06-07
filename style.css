@@ -1,0 +1,164 @@
+body {
+    
+    background-color: rgba(0, 0, 0, 0.837);
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#body-header {
+    height: 65vh;
+    opacity: 1;
+    background-image: url(istockphoto-997351128-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+   
+}
+
+
+.no-list-style{
+    list-style: none;
+    float: right;
+
+}
+
+.no-list-style li {
+    list-style:none;
+    margin-right: 60px;
+    
+    font-size: 20px;
+}
+
+.no-list-style li a{
+    list-style: none;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+    text-decoration: none;
+}
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li {
+    display: inline-block;
+    
+}
+
+
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 2px solid black;
+}
+#name-social-container {
+    margin-top: 16vh;
+    text-align: left;
+    margin-left: 80px;
+}
+#my-name {
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f9004d;
+    line-height: 0.4;
+    
+   
+   
+}
+#my-Name{
+    font-size: 4.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    
+}
+
+#about {
+   
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#my-image {
+    
+    height: 18rem;
+    width: 18rem;
+    margin: auto;
+    margin-top: -22vh;
+}
+
+#my-image img {
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: white;
+    line-height: 1.6;
+    font-size: 2rem;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contact {
+    padding-top: 1vh;
+    text-align: center;
+    background-image: linear-gradient(50deg, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.545) 74%);
+    color: white;
+    padding-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+#contact h1,
+#contact h1 span {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: normal;
+   
+}
+
+
+.social{
+	
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+    
+}
+.social a:hover{
+	transform: scale(1.2);
+	transition: .3s;
+    color: yellow;
+}
